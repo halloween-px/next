@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Главная",
+    "link": "/"
+  },
+  {
+    "title": "Компания",
+    "link":  "/about"
+  },
+  {
+    "title": "Фотогалерея",
+    "link":  "/photogallery"
+  },
+  {
+    "title": "Команда",
+    "link":  "/teams"
+  },
+  {
+    "title": "Контакты",
+    "link":  "/contacts"
+  }
+]
