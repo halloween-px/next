@@ -7,13 +7,12 @@ const MainContext = createContext({});
 export const MainProvider = ({ children }: {children: ReactNode}) => {
 
     const [navigation, setNavigation] = useState([]);
-
     useEffect(() => {
         getNavigationRequest().then(data => setNavigation(data.items))
     }, [])
 
     const value = {
-        navigation
+        navigation,
     }
 
     return (

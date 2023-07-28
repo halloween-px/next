@@ -1,8 +1,9 @@
+"use client"
 import HeaderTop from "./HeaderTop";
 
 const Header = () => {
     return (
-        <header className={'header'}>
+        <header className='header'>
             <div className="container">
                 <HeaderTop />
             </div>
